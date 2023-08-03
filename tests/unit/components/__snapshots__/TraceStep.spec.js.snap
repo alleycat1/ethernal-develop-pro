@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TraceStep.vue Should display the formatted step 1`] = `
+<div class="row">
+  <!---->
+  <div class="pb-0 col" style="overflow-y: auto;">
+    <div class="v-card v-card--flat v-sheet theme--light">
+      <div class="v-card__text pa-0 ma-0"><span class="font-weight-black">
+                    |<br>
+                    |--&gt;
+                </span> <span class="primary mr-2 v-chip v-chip--no-color theme--light v-size--small"><span class="v-chip__content">call</span></span>
+        <!---->
+        <!---->
+        <hash-link-stub notcopiable="true" withname="true" fullhash="true" hash="0xab8e74017a8cc7c15ffccd726603790d26d7deca" type="address"></hash-link-stub><span>.claim(</span>
+        <div><span class="ml-8 ml-4"><span>uint256 _poolId: </span> <span><!----> <span class=""><span>
+                2
+            </span></span></span>
+          </span></div><span class="ml-4">)</span>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

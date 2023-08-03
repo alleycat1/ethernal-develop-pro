@@ -1,0 +1,12 @@
+FROM node:16
+
+ENV HOST=0.0.0.0
+
+WORKDIR /app
+
+COPY public/ ./public/
+COPY src/ ./src/
+COPY babel.config.js .firebaserc package.json yarn.lock vue.config.js _redirects ./
+RUN yarn install --network-timeout 100000
+EXPOSE 8080
+CMD ["yarn", "serve"]

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blocks.vue Should show the blocks list 1`] = `
+<div class="container container--fluid">
+  <block-list-stub></block-list-stub>
+</div>
+`;

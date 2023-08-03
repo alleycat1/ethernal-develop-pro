@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RpcConnector.vue Should display the correct info 1`] = `
+<header class="px-3 color--text v-sheet theme--light v-toolbar v-toolbar--dense v-toolbar--flat" style="height: 48px; overflow-x: auto; white-space: nowrap; border-bottom: thin solid rgba(0, 0, 0, 0.12);">
+  <div class="v-toolbar__content" style="height: 48px;"><button type="button" class="v-app-bar__nav-icon v-btn v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu theme--light"></i></span></button> <button type="button" class="v-icon notranslate v-icon--link mdi mdi-magnify theme--light"></button>
+    <transition-stub name="slide-x-transition">
+      <div class="row" style="display: none;">
+        <div class="col col-12">
+          <div class="v-input ml-2 v-input--hide-details v-input--dense theme--light v-text-field v-select v-autocomplete">
+            <div class="v-input__control">
+              <div role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-9" class="v-input__slot">
+                <div class="v-select__slot"><input autofocus="autofocus" id="input-9" type="text" autocomplete="off"><input type="hidden"></div>
+                <div class="v-menu">
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </transition-stub>
+    <hr role="separator" aria-orientation="vertical" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light">
+    Workspace: Hardhat (Ethereum)
+    <hr role="separator" aria-orientation="vertical" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light"> <span style="max-width: 50ch; text-overflow: ellipsis; overflow: hidden;"></span>
+    <div>
+      <hr role="separator" aria-orientation="vertical" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light">
+      Latest Block: <a href="#/block/2" class="">2</a>
+    </div>
+    <div style="display: none;">
+      <hr role="separator" aria-orientation="vertical" class="mx-2 v-divider v-divider--inset v-divider--vertical theme--light">
+      <div role="progressbar" aria-valuemin="0" aria-valuemax="100" class="v-progress-circular mr-2 v-progress-circular--visible v-progress-circular--indeterminate primary--text" style="height: 16px; width: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="22.857142857142858 22.857142857142858 45.714285714285715 45.714285714285715" style="transform: rotate(0deg);">
+          <circle fill="transparent" cx="45.714285714285715" cy="45.714285714285715" r="20" stroke-width="5.714285714285714" stroke-dasharray="125.664" stroke-dashoffset="125.66370614359172px" class="v-progress-circular__overlay"></circle>
+        </svg>
+        <div class="v-progress-circular__info"></div>
+      </div>Processing Contracts...
+    </div>
+    <div class="spacer"></div>
+    <!---->
+  </div>
+</header>
+`;
